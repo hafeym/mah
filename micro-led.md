@@ -10,6 +10,23 @@ basic.forever(function () {
 })
 ```
 
+## Randomize x
+
+Drag the code to pick a random ``x`` index
+between ``0`` and ``4``.
+
+```blocks
+basic.forever(function () {
+    led.toggle(randint(0, 4), randint(0, 4))
+})
+```
+## Randomize y
+
+Drag the code to pick a random ``y`` index
+between ``0`` and ``4``.
+
+
+
 ## All the code
 
 ```blocks
